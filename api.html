@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Api para teste</title>
+	<link rel="stylesheet" type="text/css" href="bulma-1.0.4/bulma/css/bulma.min.css">
+</head>
+<body>
+	<main>
+	 <section class="container">
+	   <h1 class="has-text-primary">Api com javascript</h1>
+	   <h2 class="has-text-primary">Buscar usuários</h2>
+	   <br>
+	   <button id="btn" class="button is-success is-dark">Buscar usuários</button>
+	   <br>
+	   <div id="usuarios" class="has-text-info"></div>
+	   <br>
+	   
+	   <h2 class="has-text-primary">Cadastrar usuário</h2>
+       <br>
+	   <form id="formUsuario">
+	   	 <div class="control">
+	   	 	<label for="nome" class="has-text-success">Nome:</label>
+	   	 	<input id="nome" class="input column is-4" type="text" placeholder="buscar filmes" required>
+	   	 </div>
+	   	 <br>
+	   	 <label for="email" class="has-text-success">Email:</label>
+	   	 <input id="email" class="input column is-4" type="text" placeholder="Digite email" requirid>
+	   	 <br>
+	   	 <label for="phone" class="has-text-success">Telefone:</label>
+	   	 <input id="phone" class="input column is-4" type="text" placeholder="Digite telefone" required>
+	   	 <br>
+	   	 <button type="submit" class="button is-primary is-dark">Enviar usuário</button>
+	   </form>
+	   <div id="resultado" class="has-text-primary"></div>
+	 <section>
+   </main>
+   <script src="js/api.js"></script>
+</body>
+</html>
